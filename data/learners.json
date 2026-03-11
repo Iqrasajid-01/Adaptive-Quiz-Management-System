@@ -1,0 +1,1429 @@
+{
+    "Iqra Sajid": {
+        "score": 6,
+        "history": [
+            {
+                "question_id": 46,
+                "correct": false,
+                "difficulty": "easy",
+                "timestamp": "2026-03-11 21:19:01.374387"
+            },
+            {
+                "question_id": 14,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2026-03-11 21:19:07.963442"
+            },
+            {
+                "question_id": 33,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2026-03-11 21:19:20.124650"
+            },
+            {
+                "question_id": 34,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2026-03-11 21:19:28.890412"
+            },
+            {
+                "question_id": 68,
+                "correct": true,
+                "difficulty": "medium",
+                "timestamp": "2026-03-11 21:19:36.254687"
+            },
+            {
+                "question_id": 95,
+                "correct": false,
+                "difficulty": "medium",
+                "timestamp": "2026-03-11 21:19:42.045917"
+            },
+            {
+                "question_id": 41,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2026-03-11 21:19:46.714991"
+            },
+            {
+                "question_id": 31,
+                "correct": false,
+                "difficulty": "easy",
+                "timestamp": "2026-03-11 21:19:50.826813"
+            },
+            {
+                "question_id": 22,
+                "correct": false,
+                "difficulty": "easy",
+                "timestamp": "2026-03-11 21:19:55.417511"
+            },
+            {
+                "question_id": 2,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2026-03-11 21:19:58.269321"
+            },
+            {
+                "question_id": 36,
+                "correct": false,
+                "difficulty": "easy",
+                "timestamp": "2026-03-11 21:20:02.065670"
+            }
+        ],
+        "current_level": "easy",
+        "correct_streak": 0
+    },
+    "iiqra_sajid": {
+        "score": 5,
+        "history": [
+            {
+                "question_id": 1,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-18 13:16:55.858762"
+            },
+            {
+                "question_id": 2,
+                "correct": true,
+                "difficulty": "medium",
+                "timestamp": "2025-11-18 13:17:01.326243"
+            },
+            {
+                "question_id": 3,
+                "correct": true,
+                "difficulty": "hard",
+                "timestamp": "2025-11-18 13:17:06.481165"
+            },
+            {
+                "question_id": 3,
+                "correct": true,
+                "difficulty": "hard",
+                "timestamp": "2025-11-18 13:17:09.620952"
+            },
+            {
+                "question_id": 3,
+                "correct": true,
+                "difficulty": "hard",
+                "timestamp": "2025-11-18 13:21:12.608870"
+            }
+        ]
+    },
+    "Ubaid": {
+        "score": 3,
+        "history": [
+            {
+                "question_id": 7,
+                "correct": false,
+                "difficulty": "easy",
+                "timestamp": "2026-03-07 07:40:23.138995"
+            },
+            {
+                "question_id": 9,
+                "correct": false,
+                "difficulty": "easy",
+                "timestamp": "2026-03-07 07:40:33.620829"
+            },
+            {
+                "question_id": 13,
+                "correct": false,
+                "difficulty": "easy",
+                "timestamp": "2026-03-07 07:40:41.820195"
+            },
+            {
+                "question_id": 8,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2026-03-07 07:40:49.035764"
+            },
+            {
+                "question_id": 1,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2026-03-07 07:40:58.556415"
+            },
+            {
+                "question_id": 43,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2026-03-07 07:41:05.337421"
+            }
+        ],
+        "current_level": "medium",
+        "correct_streak": 0
+    },
+    "Iqra": {
+        "score": 5,
+        "history": [
+            {
+                "question_id": 12,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2026-03-11 21:34:51.677256"
+            },
+            {
+                "question_id": 31,
+                "correct": false,
+                "difficulty": "easy",
+                "timestamp": "2026-03-11 21:34:56.697016"
+            },
+            {
+                "question_id": 3,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2026-03-11 21:35:00.846648"
+            },
+            {
+                "question_id": 18,
+                "correct": false,
+                "difficulty": "easy",
+                "timestamp": "2026-03-11 21:35:03.140154"
+            },
+            {
+                "question_id": 11,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2026-03-11 21:35:09.507496"
+            },
+            {
+                "question_id": 9,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2026-03-11 21:35:13.892512"
+            },
+            {
+                "question_id": 21,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2026-03-11 21:35:17.907706"
+            },
+            {
+                "question_id": 56,
+                "correct": false,
+                "difficulty": "medium",
+                "timestamp": "2026-03-11 21:35:24.424807"
+            }
+        ],
+        "current_level": "easy",
+        "correct_streak": 0
+    },
+    "Dua": {
+        "score": 1,
+        "history": [
+            {
+                "question_id": 18,
+                "correct": false,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 23:09:54.019418"
+            },
+            {
+                "question_id": 40,
+                "correct": false,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 23:10:01.302167"
+            },
+            {
+                "question_id": 5,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 23:10:04.635092"
+            }
+        ],
+        "current_level": "easy",
+        "correct_streak": 1
+    },
+    "iqra": {
+        "score": 6,
+        "history": [
+            {
+                "question_id": 17,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-20 01:14:55.298784"
+            },
+            {
+                "question_id": 26,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-20 01:14:57.737352"
+            },
+            {
+                "question_id": 34,
+                "correct": false,
+                "difficulty": "easy",
+                "timestamp": "2025-11-20 01:15:00.648470"
+            },
+            {
+                "question_id": 37,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-20 01:15:06.364745"
+            },
+            {
+                "question_id": 35,
+                "correct": false,
+                "difficulty": "easy",
+                "timestamp": "2025-11-20 01:15:17.713622"
+            },
+            {
+                "question_id": 40,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-20 01:15:21.629902"
+            },
+            {
+                "question_id": 1,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-20 01:15:24.162852"
+            },
+            {
+                "question_id": 30,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-20 01:15:27.580198"
+            },
+            {
+                "question_id": 83,
+                "correct": false,
+                "difficulty": "medium",
+                "timestamp": "2025-11-20 01:15:32.878929"
+            }
+        ],
+        "current_level": "easy",
+        "correct_streak": 0
+    },
+    "Sara": {
+        "score": 1,
+        "history": [
+            {
+                "question_id": 20,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 23:30:41.022259"
+            }
+        ],
+        "current_level": "easy",
+        "correct_streak": 1
+    },
+    "Zeeshan": {
+        "score": 4,
+        "history": [
+            {
+                "question_id": 1,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-18 23:07:16.346140"
+            },
+            {
+                "question_id": 27,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-18 23:07:20.597380"
+            },
+            {
+                "question_id": 28,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-18 23:07:28.259696"
+            },
+            {
+                "question_id": 54,
+                "correct": true,
+                "difficulty": "medium",
+                "timestamp": "2025-11-18 23:07:37.359943"
+            }
+        ],
+        "current_level": "medium",
+        "correct_streak": 1
+    },
+    "Iqra sajid": {
+        "score": 7,
+        "history": [
+            {
+                "question_id": 13,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 09:03:25.214065"
+            },
+            {
+                "question_id": 9,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 09:03:38.346787"
+            },
+            {
+                "question_id": 48,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 09:03:51.795780"
+            },
+            {
+                "question_id": 82,
+                "correct": false,
+                "difficulty": "medium",
+                "timestamp": "2025-11-19 09:04:00.445707"
+            },
+            {
+                "question_id": 11,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 09:04:04.679384"
+            },
+            {
+                "question_id": 42,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 09:04:10.827656"
+            },
+            {
+                "question_id": 14,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 09:04:16.044633"
+            },
+            {
+                "question_id": 64,
+                "correct": true,
+                "difficulty": "medium",
+                "timestamp": "2025-11-19 09:04:24.143602"
+            },
+            {
+                "question_id": 96,
+                "correct": false,
+                "difficulty": "medium",
+                "timestamp": "2025-11-19 09:04:38.093917"
+            }
+        ],
+        "current_level": "easy",
+        "correct_streak": 0
+    },
+    "dua": {
+        "score": 15,
+        "history": [
+            {
+                "question_id": 44,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 09:11:40.341068"
+            },
+            {
+                "question_id": 12,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 09:11:45.872615"
+            },
+            {
+                "question_id": 40,
+                "correct": false,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 09:11:50.689184"
+            },
+            {
+                "question_id": 19,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 09:12:01.857600"
+            },
+            {
+                "question_id": 42,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 09:12:11.155414"
+            },
+            {
+                "question_id": 42,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 09:12:14.838071"
+            },
+            {
+                "question_id": 64,
+                "correct": true,
+                "difficulty": "medium",
+                "timestamp": "2025-11-19 09:12:17.388410"
+            },
+            {
+                "question_id": 60,
+                "correct": true,
+                "difficulty": "medium",
+                "timestamp": "2025-11-19 09:12:26.036935"
+            },
+            {
+                "question_id": 67,
+                "correct": true,
+                "difficulty": "medium",
+                "timestamp": "2025-11-19 09:12:31.537467"
+            },
+            {
+                "question_id": 111,
+                "correct": false,
+                "difficulty": "hard",
+                "timestamp": "2025-11-19 09:12:45.686667"
+            },
+            {
+                "question_id": 88,
+                "correct": true,
+                "difficulty": "medium",
+                "timestamp": "2025-11-19 09:12:54.819511"
+            },
+            {
+                "question_id": 74,
+                "correct": false,
+                "difficulty": "medium",
+                "timestamp": "2025-11-19 09:13:08.084855"
+            },
+            {
+                "question_id": 9,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 09:13:12.251095"
+            },
+            {
+                "question_id": 47,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 09:13:17.402287"
+            },
+            {
+                "question_id": 1,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 09:13:20.334560"
+            },
+            {
+                "question_id": 63,
+                "correct": true,
+                "difficulty": "medium",
+                "timestamp": "2025-11-19 09:13:50.965081"
+            },
+            {
+                "question_id": 83,
+                "correct": false,
+                "difficulty": "medium",
+                "timestamp": "2025-11-19 09:13:58.448473"
+            },
+            {
+                "question_id": 4,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 09:14:02.680912"
+            },
+            {
+                "question_id": 33,
+                "correct": false,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 09:14:09.213891"
+            },
+            {
+                "question_id": 40,
+                "correct": false,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 09:14:12.948230"
+            },
+            {
+                "question_id": 49,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 09:14:18.546934"
+            },
+            {
+                "question_id": 18,
+                "correct": false,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 09:14:22.546385"
+            }
+        ],
+        "current_level": "easy",
+        "correct_streak": 0
+    },
+    "taha": {
+        "score": 5,
+        "history": [
+            {
+                "question_id": 50,
+                "correct": false,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 09:15:45.825732"
+            },
+            {
+                "question_id": 50,
+                "correct": false,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 09:15:49.424367"
+            },
+            {
+                "question_id": 42,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 09:15:54.091302"
+            },
+            {
+                "question_id": 37,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 09:15:58.691754"
+            },
+            {
+                "question_id": 29,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 09:16:03.291517"
+            },
+            {
+                "question_id": 67,
+                "correct": true,
+                "difficulty": "medium",
+                "timestamp": "2025-11-19 09:16:10.107366"
+            },
+            {
+                "question_id": 77,
+                "correct": false,
+                "difficulty": "medium",
+                "timestamp": "2025-11-19 09:16:14.938692"
+            },
+            {
+                "question_id": 25,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 09:16:18.239137"
+            },
+            {
+                "question_id": 46,
+                "correct": false,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 09:16:26.640038"
+            }
+        ],
+        "current_level": "easy",
+        "correct_streak": 0
+    },
+    "dra": {
+        "score": 0,
+        "history": [],
+        "current_level": "easy",
+        "correct_streak": 0
+    },
+    "Iqra Ansari": {
+        "score": 1,
+        "history": [
+            {
+                "question_id": 46,
+                "correct": false,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 09:18:01.718788"
+            },
+            {
+                "question_id": 8,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 09:18:16.318868"
+            }
+        ],
+        "current_level": "easy",
+        "correct_streak": 1
+    },
+    "Isra": {
+        "score": 0,
+        "history": [],
+        "current_level": "easy",
+        "correct_streak": 0
+    },
+    "erha": {
+        "score": 4,
+        "history": [
+            {
+                "question_id": 8,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 10:21:21.304069"
+            },
+            {
+                "question_id": 2,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 10:21:24.238132"
+            },
+            {
+                "question_id": 39,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 10:21:29.306081"
+            },
+            {
+                "question_id": 55,
+                "correct": true,
+                "difficulty": "medium",
+                "timestamp": "2025-11-19 10:21:38.641183"
+            },
+            {
+                "question_id": 96,
+                "correct": false,
+                "difficulty": "medium",
+                "timestamp": "2025-11-19 10:21:46.270232"
+            }
+        ],
+        "current_level": "easy",
+        "correct_streak": 0
+    },
+    "sara": {
+        "score": 8,
+        "history": [
+            {
+                "question_id": 44,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 22:31:03.416589"
+            },
+            {
+                "question_id": 16,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 22:31:05.966036"
+            },
+            {
+                "question_id": 28,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 22:31:08.416288"
+            },
+            {
+                "question_id": 58,
+                "correct": true,
+                "difficulty": "medium",
+                "timestamp": "2025-11-19 22:31:14.332110"
+            },
+            {
+                "question_id": 83,
+                "correct": false,
+                "difficulty": "medium",
+                "timestamp": "2025-11-19 22:31:20.864628"
+            },
+            {
+                "question_id": 38,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 22:31:25.230815"
+            },
+            {
+                "question_id": 46,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 22:31:33.935956"
+            },
+            {
+                "question_id": 28,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 22:31:37.667789"
+            },
+            {
+                "question_id": 95,
+                "correct": false,
+                "difficulty": "medium",
+                "timestamp": "2025-11-19 22:31:44.495028"
+            },
+            {
+                "question_id": 45,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 22:31:48.544589"
+            }
+        ],
+        "current_level": "easy",
+        "correct_streak": 1
+    },
+    "farah": {
+        "score": 2,
+        "history": [
+            {
+                "question_id": 11,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 10:34:51.064305"
+            },
+            {
+                "question_id": 34,
+                "correct": false,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 10:34:53.283019"
+            },
+            {
+                "question_id": 32,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 10:34:58.549792"
+            }
+        ],
+        "current_level": "easy",
+        "correct_streak": 1
+    },
+    "Dania": {
+        "score": 8,
+        "history": [
+            {
+                "question_id": 16,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 22:28:36.950770"
+            },
+            {
+                "question_id": 19,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 22:28:40.100406"
+            },
+            {
+                "question_id": 33,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 22:28:43.966807"
+            },
+            {
+                "question_id": 88,
+                "correct": true,
+                "difficulty": "medium",
+                "timestamp": "2025-11-19 22:28:47.382909"
+            },
+            {
+                "question_id": 72,
+                "correct": true,
+                "difficulty": "medium",
+                "timestamp": "2025-11-19 22:28:51.031160"
+            },
+            {
+                "question_id": 93,
+                "correct": true,
+                "difficulty": "medium",
+                "timestamp": "2025-11-19 22:28:53.698974"
+            },
+            {
+                "question_id": 114,
+                "correct": false,
+                "difficulty": "hard",
+                "timestamp": "2025-11-19 22:29:00.598180"
+            },
+            {
+                "question_id": 65,
+                "correct": true,
+                "difficulty": "medium",
+                "timestamp": "2025-11-19 22:29:07.012854"
+            },
+            {
+                "question_id": 59,
+                "correct": false,
+                "difficulty": "medium",
+                "timestamp": "2025-11-19 22:29:21.643947"
+            },
+            {
+                "question_id": 27,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 22:29:31.359802"
+            }
+        ],
+        "current_level": "easy",
+        "correct_streak": 1
+    },
+    "rabia": {
+        "score": 6,
+        "history": [
+            {
+                "question_id": 9,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 22:33:47.795336"
+            },
+            {
+                "question_id": 34,
+                "correct": false,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 22:33:51.080438"
+            },
+            {
+                "question_id": 32,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 22:33:56.312763"
+            },
+            {
+                "question_id": 35,
+                "correct": false,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 22:34:00.411901"
+            },
+            {
+                "question_id": 22,
+                "correct": false,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 22:34:08.894360"
+            },
+            {
+                "question_id": 48,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 22:34:14.766585"
+            },
+            {
+                "question_id": 20,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 22:34:18.049787"
+            },
+            {
+                "question_id": 7,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 22:34:20.792669"
+            },
+            {
+                "question_id": 83,
+                "correct": false,
+                "difficulty": "medium",
+                "timestamp": "2025-11-19 22:34:25.308626"
+            },
+            {
+                "question_id": 44,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 22:34:28.424885"
+            }
+        ],
+        "current_level": "easy",
+        "correct_streak": 1
+    },
+    "Mano": {
+        "score": 3,
+        "history": [
+            {
+                "question_id": 36,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 23:09:08.856018"
+            },
+            {
+                "question_id": 17,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 23:09:12.273867"
+            },
+            {
+                "question_id": 48,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 23:09:16.774009"
+            }
+        ],
+        "current_level": "medium",
+        "correct_streak": 0
+    },
+    "Maria": {
+        "score": 1,
+        "history": [
+            {
+                "question_id": 15,
+                "correct": false,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 23:12:46.018050"
+            },
+            {
+                "question_id": 47,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 23:13:03.382863"
+            }
+        ],
+        "current_level": "easy",
+        "correct_streak": 1
+    },
+    "Sraa": {
+        "score": 1,
+        "history": [
+            {
+                "question_id": 14,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-19 23:20:46.517314"
+            }
+        ],
+        "current_level": "easy",
+        "correct_streak": 1
+    },
+    "Zara": {
+        "score": 18,
+        "history": [
+            {
+                "question_id": 40,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-20 01:11:04.121286"
+            },
+            {
+                "question_id": 40,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-20 01:11:08.053253"
+            },
+            {
+                "question_id": 9,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-20 01:11:10.536183"
+            },
+            {
+                "question_id": 69,
+                "correct": true,
+                "difficulty": "medium",
+                "timestamp": "2025-11-20 01:11:15.152705"
+            },
+            {
+                "question_id": 88,
+                "correct": true,
+                "difficulty": "medium",
+                "timestamp": "2025-11-20 01:11:19.584902"
+            },
+            {
+                "question_id": 82,
+                "correct": false,
+                "difficulty": "medium",
+                "timestamp": "2025-11-20 01:11:22.767495"
+            },
+            {
+                "question_id": 7,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-20 01:11:26.667634"
+            },
+            {
+                "question_id": 49,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-20 01:11:29.399743"
+            },
+            {
+                "question_id": 45,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-20 01:11:32.008688"
+            },
+            {
+                "question_id": 57,
+                "correct": true,
+                "difficulty": "medium",
+                "timestamp": "2025-11-20 01:11:45.866484"
+            },
+            {
+                "question_id": 52,
+                "correct": false,
+                "difficulty": "medium",
+                "timestamp": "2025-11-20 01:11:56.705320"
+            },
+            {
+                "question_id": 35,
+                "correct": false,
+                "difficulty": "easy",
+                "timestamp": "2025-11-20 01:12:03.298000"
+            },
+            {
+                "question_id": 16,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-20 01:12:06.580927"
+            },
+            {
+                "question_id": 36,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-20 01:12:27.161069"
+            },
+            {
+                "question_id": 13,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-20 01:12:30.812446"
+            },
+            {
+                "question_id": 73,
+                "correct": false,
+                "difficulty": "medium",
+                "timestamp": "2025-11-20 01:12:33.995329"
+            },
+            {
+                "question_id": 47,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-20 01:12:37.245282"
+            },
+            {
+                "question_id": 18,
+                "correct": false,
+                "difficulty": "easy",
+                "timestamp": "2025-11-20 01:12:39.944923"
+            },
+            {
+                "question_id": 8,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-20 01:12:43.477814"
+            },
+            {
+                "question_id": 39,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-20 01:12:55.859003"
+            },
+            {
+                "question_id": 11,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-20 01:12:58.943120"
+            },
+            {
+                "question_id": 68,
+                "correct": true,
+                "difficulty": "medium",
+                "timestamp": "2025-11-20 01:13:06.642351"
+            },
+            {
+                "question_id": 77,
+                "correct": true,
+                "difficulty": "medium",
+                "timestamp": "2025-11-20 01:13:09.409068"
+            },
+            {
+                "question_id": 91,
+                "correct": false,
+                "difficulty": "medium",
+                "timestamp": "2025-11-20 01:13:18.691364"
+            }
+        ],
+        "current_level": "easy",
+        "correct_streak": 0
+    },
+    "Sajid": {
+        "score": 9,
+        "history": [
+            {
+                "question_id": 44,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-20 01:43:12.126872"
+            },
+            {
+                "question_id": 22,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-20 01:43:20.275356"
+            },
+            {
+                "question_id": 38,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-20 01:43:24.926158"
+            },
+            {
+                "question_id": 53,
+                "correct": true,
+                "difficulty": "medium",
+                "timestamp": "2025-11-20 01:43:29.092414"
+            },
+            {
+                "question_id": 57,
+                "correct": true,
+                "difficulty": "medium",
+                "timestamp": "2025-11-20 01:43:32.975113"
+            },
+            {
+                "question_id": 76,
+                "correct": true,
+                "difficulty": "medium",
+                "timestamp": "2025-11-20 01:43:35.540661"
+            },
+            {
+                "question_id": 118,
+                "correct": true,
+                "difficulty": "hard",
+                "timestamp": "2025-11-20 01:43:53.990149"
+            },
+            {
+                "question_id": 147,
+                "correct": true,
+                "difficulty": "hard",
+                "timestamp": "2025-11-20 01:43:59.488089"
+            },
+            {
+                "question_id": 118,
+                "correct": true,
+                "difficulty": "hard",
+                "timestamp": "2025-11-20 01:44:02.505962"
+            },
+            {
+                "question_id": 146,
+                "correct": false,
+                "difficulty": "hard",
+                "timestamp": "2025-11-20 01:44:08.838511"
+            }
+        ],
+        "current_level": "medium",
+        "correct_streak": 0
+    },
+    "Ubaid Raheem": {
+        "score": 13,
+        "history": [
+            {
+                "question_id": 47,
+                "correct": false,
+                "difficulty": "easy",
+                "timestamp": "2025-11-21 13:11:01.666996"
+            },
+            {
+                "question_id": 46,
+                "correct": false,
+                "difficulty": "easy",
+                "timestamp": "2025-11-21 13:11:17.482712"
+            },
+            {
+                "question_id": 11,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-21 13:11:23.480674"
+            },
+            {
+                "question_id": 9,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-21 13:11:30.265534"
+            },
+            {
+                "question_id": 10,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-21 13:11:34.967489"
+            },
+            {
+                "question_id": 84,
+                "correct": true,
+                "difficulty": "medium",
+                "timestamp": "2025-11-21 13:11:39.863833"
+            },
+            {
+                "question_id": 54,
+                "correct": true,
+                "difficulty": "medium",
+                "timestamp": "2025-11-21 13:11:47.215179"
+            },
+            {
+                "question_id": 67,
+                "correct": false,
+                "difficulty": "medium",
+                "timestamp": "2025-11-21 13:11:52.763345"
+            },
+            {
+                "question_id": 27,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-21 13:12:04.445112"
+            },
+            {
+                "question_id": 30,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-21 13:12:09.497604"
+            },
+            {
+                "question_id": 10,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-21 13:12:13.561771"
+            },
+            {
+                "question_id": 95,
+                "correct": false,
+                "difficulty": "medium",
+                "timestamp": "2025-11-21 13:16:50.068573"
+            },
+            {
+                "question_id": 11,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-21 13:16:53.384706"
+            },
+            {
+                "question_id": 45,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-21 13:17:30.302999"
+            },
+            {
+                "question_id": 26,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2025-11-21 13:17:34.064938"
+            },
+            {
+                "question_id": 58,
+                "correct": true,
+                "difficulty": "medium",
+                "timestamp": "2025-11-21 13:17:37.197563"
+            },
+            {
+                "question_id": 77,
+                "correct": true,
+                "difficulty": "medium",
+                "timestamp": "2025-11-21 13:17:41.730444"
+            },
+            {
+                "question_id": 83,
+                "correct": false,
+                "difficulty": "medium",
+                "timestamp": "2025-11-21 13:18:00.902183"
+            }
+        ],
+        "current_level": "easy",
+        "correct_streak": 0
+    },
+    "iqrasajid": {
+        "score": 6,
+        "history": [
+            {
+                "question_id": 27,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2026-03-07 09:36:45.871902"
+            },
+            {
+                "question_id": 27,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2026-03-07 09:36:52.821472"
+            },
+            {
+                "question_id": 43,
+                "correct": false,
+                "difficulty": "easy",
+                "timestamp": "2026-03-07 09:37:02.239168"
+            },
+            {
+                "question_id": 45,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2026-03-07 09:37:10.519562"
+            },
+            {
+                "question_id": 28,
+                "correct": false,
+                "difficulty": "easy",
+                "timestamp": "2026-03-07 09:37:14.532118"
+            },
+            {
+                "question_id": 1,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2026-03-07 09:37:18.370727"
+            },
+            {
+                "question_id": 27,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2026-03-07 09:37:26.315656"
+            },
+            {
+                "question_id": 35,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2026-03-07 09:37:36.736212"
+            }
+        ],
+        "current_level": "medium",
+        "correct_streak": 0
+    },
+    "IQRA": {
+        "score": 12,
+        "history": [
+            {
+                "question_id": 10,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2026-03-11 21:26:34.745837"
+            },
+            {
+                "question_id": 14,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2026-03-11 21:26:38.939307"
+            },
+            {
+                "question_id": 21,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2026-03-11 21:26:42.557311"
+            },
+            {
+                "question_id": 58,
+                "correct": true,
+                "difficulty": "medium",
+                "timestamp": "2026-03-11 21:26:46.158858"
+            },
+            {
+                "question_id": 87,
+                "correct": true,
+                "difficulty": "medium",
+                "timestamp": "2026-03-11 21:26:54.338524"
+            },
+            {
+                "question_id": 85,
+                "correct": false,
+                "difficulty": "medium",
+                "timestamp": "2026-03-11 21:27:00.497689"
+            },
+            {
+                "question_id": 19,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2026-03-11 21:27:04.541080"
+            },
+            {
+                "question_id": 4,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2026-03-11 21:27:07.271445"
+            },
+            {
+                "question_id": 5,
+                "correct": true,
+                "difficulty": "easy",
+                "timestamp": "2026-03-11 21:27:10.072501"
+            },
+            {
+                "question_id": 69,
+                "correct": true,
+                "difficulty": "medium",
+                "timestamp": "2026-03-11 21:27:13.770578"
+            },
+            {
+                "question_id": 90,
+                "correct": true,
+                "difficulty": "medium",
+                "timestamp": "2026-03-11 21:27:16.853301"
+            },
+            {
+                "question_id": 71,
+                "correct": true,
+                "difficulty": "medium",
+                "timestamp": "2026-03-11 21:27:24.952445"
+            },
+            {
+                "question_id": 126,
+                "correct": true,
+                "difficulty": "hard",
+                "timestamp": "2026-03-11 21:27:28.774735"
+            },
+            {
+                "question_id": 117,
+                "correct": false,
+                "difficulty": "hard",
+                "timestamp": "2026-03-11 21:27:33.384344"
+            }
+        ],
+        "current_level": "medium",
+        "correct_streak": 0
+    }
+}

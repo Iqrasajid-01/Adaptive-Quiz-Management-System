@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Adaptive Quiz System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        /* Inline styles for template variables */
+        .streak-progress {
+            width: calc({{ correct_streak }} * 20%);
+        }
+    </style>
+</head>
+<body class="quiz-page">
+
+{% if not username %}
+    <!-- Welcome Screen -->
+    <div class="quiz-container">
+        <div class="home-logo">📚</div>
+        <h1 class="home-title">Welcome to Adaptive Quiz</h1>
+        <p class="home-subtitle">Enter your name to begin your learning journey</p>
+        
+        <form method="POST" action="{{ url_for('start_quiz') }}">
+            <div class="form-group">
+                <input 
+                    type="text" 
+                    name="username" 
+                    class="form-input" 
+                    placeholder="Enter Your Name"
+                    required
+                    autofocus
+                >
+            </div>
+            <button type="submit" class="btn btn-primary btn-block btn-lg">
+                <span>🚀</span>
+                Start Quiz
+            </button>
+        </form>
+    </div>
+
+{% else %}
+    <!-- Quiz Screen -->
+    <div class="quiz-container">
+        <div class="quiz-header">
+            <p class="quiz-label">Question</p>
+        </div>
+        
+        <div class="quiz-question">{{ question['question'] }}</div>
+
+        <form method="POST">
+            <div class="options-list">
+                {% for opt in question['options'] %}
+                <label class="option-label">
+                    <input type="radio" name="option" value="{{ opt }}" required>
+                    <span>{{ opt }}</span>
+                </label>
+                {% endfor %}
+            </div>
+
+            <input type="hidden" name="question_id" value="{{ question['id'] }}">
+            <button type="submit" class="btn btn-primary btn-block btn-lg">
+                <span>✓</span>
+                Submit Answer
+            </button>
+        </form>
+
+        <!-- Streak Bar -->
+        <div class="streak-container">
+            <div class="streak-progress">
+                {% if correct_streak > 0 %}
+                    <span class="streak-fire">🔥</span>
+                {% endif %}
+            </div>
+        </div>
+
+        <!-- Info Bar -->
+        <div class="info-bar">
+            <div class="info-item">
+                <span class="info-label">Level:</span>
+                <span class="badge badge-primary">{{ current_level.capitalize() }}</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Score:</span>
+                <span class="score-display">{{ score }}</span>
+            </div>
+        </div>
+
+        <a class="link" href="{{ url_for('dashboard', username=username) }}">
+            <span>→</span> View Dashboard
+        </a>
+    </div>
+{% endif %}
+
+</body>
+</html>
