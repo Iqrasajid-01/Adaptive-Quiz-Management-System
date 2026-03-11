@@ -3,17 +3,12 @@ from models import Learner, DifficultyManager, load_questions, load_learners, sa
 import json, os
 from datetime import datetime
 
-# Get the directory where app.py is located
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-
-app = Flask(__name__, 
-            template_folder=os.path.join(BASE_DIR, "templates"),
-            static_folder=os.path.join(BASE_DIR, "static"))
+app = Flask(__name__)
 
 # ---------------- Data & Setup ----------------
-QUESTION_FILE = os.path.join(BASE_DIR, "data", "questions.json")
-LEARNERS_FILE = os.path.join(BASE_DIR, "data", "learners.json")
-LOG_FILE = os.path.join(BASE_DIR, "data", "logs.json")
+QUESTION_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "questions.json")
+LEARNERS_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "learners.json")
+LOG_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "logs.json")
 
 question_bank = load_questions(QUESTION_FILE)
 learners = load_learners(LEARNERS_FILE)
@@ -138,7 +133,6 @@ def dashboard(username):
             cumulative += 1
         score_progress.append(cumulative)
 
-    # ---------------- FIX: Pass history to template for chart ----------------
     return render_template(
         "dashboard.html",
         username=username,
@@ -153,5 +147,6 @@ def dashboard(username):
         score_progress=score_progress
     )
 
-if __name__ == "__main__":
-    app.run(debug=True)
+# Vercel serverless handler
+def handler(request):
+    return app(request.environ, lambda *args: None)
