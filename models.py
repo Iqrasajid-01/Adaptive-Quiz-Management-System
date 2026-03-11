@@ -3,6 +3,9 @@ import json
 import random
 from datetime import datetime
 
+# In-memory storage for Vercel serverless (no filesystem writes)
+_learners_memory = {}
+
 class Question:
     def __init__(self, id, question, options, answer, difficulty):
         self.id = id
@@ -72,14 +75,21 @@ def load_questions(file_path="data/questions.json"):
         return json.load(f)
 
 def load_learners(file_path="data/learners.json"):
-    """Load learners from JSON file"""
+    """Load learners from JSON file or use in-memory storage"""
     try:
         with open(file_path, "r") as f:
             return json.load(f)
     except:
-        return {}
+        # Return in-memory storage if file doesn't exist (Vercel)
+        return _learners_memory
 
 def save_learners(learners, file_path="data/learners.json"):
-    """Save learners data to JSON file"""
-    with open(file_path, "w") as f:
-        json.dump(learners, f, indent=4)
+    """Save learners to in-memory storage (Vercel-compatible)"""
+    global _learners_memory
+    _learners_memory = learners
+    # Try to write to file (works locally), ignore errors on Vercel
+    try:
+        with open(file_path, "w") as f:
+            json.dump(learners, f, indent=4)
+    except:
+        pass  # Silent fail for serverless environments

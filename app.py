@@ -2,7 +2,6 @@ from flask import Flask, render_template, request, redirect, url_for
 from models import Learner, DifficultyManager, load_questions, load_learners, save_learners
 import json, os
 from datetime import datetime
-import pyodbc
 
 app = Flask(__name__)
 
@@ -62,7 +61,7 @@ def quiz(username):
                 correct = selected == q["answer"]
                 learner.record_attempt(qid, correct, q["difficulty"])
 
-                # Save logs safely
+                # Save logs (in-memory for Vercel, file for local)
                 logs = []
                 if os.path.exists(LOG_FILE):
                     try:
@@ -78,8 +77,12 @@ def quiz(username):
                     "correct": correct,
                     "difficulty": q["difficulty"]
                 })
-                with open(LOG_FILE, "w") as f:
-                    json.dump(logs, f, indent=4)
+                # Try to write logs (works locally), ignore errors on Vercel
+                try:
+                    with open(LOG_FILE, "w") as f:
+                        json.dump(logs, f, indent=4)
+                except:
+                    pass  # Silent fail for serverless environments
 
                 # Update learners dict & save
                 learners[username]["history"] = learner.history
@@ -147,6 +150,3 @@ def dashboard(username):
 
 if __name__ == "__main__":
     app.run(debug=True)
-
-# For Vercel deployment
-app = app
