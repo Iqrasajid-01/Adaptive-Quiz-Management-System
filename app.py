@@ -9,12 +9,19 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 app = Flask(__name__,
             template_folder=os.path.join(BASE_DIR, "templates"),
             static_folder=os.path.join(BASE_DIR, "static"))
-app.secret_key = secrets.token_hex(16)  # Generate a secret key for sessions
+app.secret_key = os.environ.get("SECRET_KEY", secrets.token_hex(16))
 
 # ---------------- Data & Setup ----------------
-QUESTION_FILE = os.path.join(BASE_DIR, "data", "questions.json")
+def get_question_bank():
+    """Load question bank with error handling"""
+    try:
+        question_file = os.path.join(BASE_DIR, "data", "questions.json")
+        return load_questions(question_file)
+    except Exception as e:
+        print(f"Error loading questions: {e}")
+        return []
 
-question_bank = load_questions(QUESTION_FILE)
+question_bank = get_question_bank()
 dm = DifficultyManager()
 
 # ---------------- Home Page ----------------

@@ -2,6 +2,7 @@
 !data/*
 !templates/*
 !static/*
+!api/*
 
 # Ignore these
 __pycache__/
@@ -18,4 +19,3 @@ build/
 .vscode/
 .git/
 .qwen/
-api/

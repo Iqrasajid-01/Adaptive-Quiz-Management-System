@@ -1,17 +1,28 @@
-from flask import Flask, render_template, request, redirect, url_for
-from models import Learner, DifficultyManager, load_questions, load_learners, save_learners
+from flask import Flask, render_template, request, redirect, url_for, session
+from models import Learner, DifficultyManager, load_questions
 import json, os
-from datetime import datetime
+import secrets
 
-app = Flask(__name__)
+# Get the directory where this file is located
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+ROOT_DIR = os.path.dirname(BASE_DIR)  # Go up one level to root
+
+app = Flask(__name__,
+            template_folder=os.path.join(ROOT_DIR, "templates"),
+            static_folder=os.path.join(ROOT_DIR, "static"))
+app.secret_key = os.environ.get("SECRET_KEY", secrets.token_hex(16))
 
 # ---------------- Data & Setup ----------------
-QUESTION_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "questions.json")
-LEARNERS_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "learners.json")
-LOG_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "logs.json")
+def get_question_bank():
+    """Load question bank with error handling"""
+    try:
+        question_file = os.path.join(ROOT_DIR, "data", "questions.json")
+        return load_questions(question_file)
+    except Exception as e:
+        print(f"Error loading questions: {e}")
+        return []
 
-question_bank = load_questions(QUESTION_FILE)
-learners = load_learners(LEARNERS_FILE)
+question_bank = get_question_bank()
 dm = DifficultyManager()
 
 # ---------------- Home Page ----------------
@@ -26,24 +37,34 @@ def start_quiz():
     if not username:
         return redirect(url_for("index"))
 
-    # Reset learner data for a fresh session
-    learners[username] = {
+    # Store username in session
+    session["username"] = username
+
+    # Initialize learner data in session
+    session["learner"] = {
         "score": 0,
         "history": [],
         "current_level": "easy",
         "correct_streak": 0
     }
-    save_learners(learners)
+
     return redirect(url_for("quiz", username=username))
 
 # ---------------- Quiz Page ----------------
 @app.route("/quiz/<username>", methods=["GET","POST"])
 def quiz(username):
-    if not username or username not in learners:
+    # Verify username matches session
+    if not username or session.get("username") != username:
         return redirect(url_for("index"))
 
-    # Load learner data
-    learner_data = learners[username]
+    # Get learner data from session
+    learner_data = session.get("learner", {
+        "score": 0,
+        "history": [],
+        "current_level": "easy",
+        "correct_streak": 0
+    })
+
     learner = Learner(username)
     learner.history = learner_data.get("history", [])
     learner.score = learner_data.get("score", 0)
@@ -61,35 +82,13 @@ def quiz(username):
                 correct = selected == q["answer"]
                 learner.record_attempt(qid, correct, q["difficulty"])
 
-                # Save logs (in-memory for Vercel, file for local)
-                logs = []
-                if os.path.exists(LOG_FILE):
-                    try:
-                        with open(LOG_FILE, "r") as f:
-                            logs = json.load(f)
-                    except:
-                        logs = []
-                logs.append({
-                    "timestamp": str(datetime.now()),
-                    "learner": username,
-                    "question_id": qid,
-                    "selected": selected,
-                    "correct": correct,
-                    "difficulty": q["difficulty"]
-                })
-                # Try to write logs (works locally), ignore errors on Vercel
-                try:
-                    with open(LOG_FILE, "w") as f:
-                        json.dump(logs, f, indent=4)
-                except:
-                    pass  # Silent fail for serverless environments
-
-                # Update learners dict & save
-                learners[username]["history"] = learner.history
-                learners[username]["score"] = learner.score
-                learners[username]["current_level"] = learner.current_level
-                learners[username]["correct_streak"] = learner.correct_streak
-                save_learners(learners)
+                # Update session data
+                session["learner"] = {
+                    "history": learner.history,
+                    "score": learner.score,
+                    "current_level": learner.current_level,
+                    "correct_streak": learner.correct_streak
+                }
 
     # Get next question adaptively
     next_q = dm.next_question(learner, question_bank)
@@ -109,10 +108,18 @@ def quiz(username):
 # ---------------- Dashboard ----------------
 @app.route("/dashboard/<username>")
 def dashboard(username):
-    if username not in learners:
+    # Verify username matches session
+    if not username or session.get("username") != username:
         return redirect(url_for("index"))
 
-    data = learners[username]
+    # Get learner data from session
+    data = session.get("learner", {
+        "score": 0,
+        "history": [],
+        "current_level": "easy",
+        "correct_streak": 0
+    })
+
     history = data.get("history", [])
     total = len(history)
     correct = sum(1 for h in history if h.get("correct"))
