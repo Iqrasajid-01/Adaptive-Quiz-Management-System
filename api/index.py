@@ -199,6 +199,3 @@ def dashboard(username):
         )
     except Exception as e:
         return f"<h1>Error</h1><pre>{str(e)}\n\n{traceback.format_exc()}</pre>", 500
-
-def handler(request):
-    return app(request.environ, lambda *args: None)
